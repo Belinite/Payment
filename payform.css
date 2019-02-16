@@ -1,0 +1,26 @@
+body {
+    background: #FFA07A!important;
+
+}
+h1 {
+    font-size: 100%;
+}
+
+span {
+    font-size: 100%;
+}
+
+.input-group-lg {
+    width: 40%;
+    height: 7%;
+}
+.btn-secondary {
+    width: 40%;
+    height: 7%;
+}
+input::-webkit-input-placeholder {
+    font-size: 100%
+}
+p{
+    font-size: 70%;
+}
