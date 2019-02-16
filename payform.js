@@ -8,16 +8,16 @@ var PayerType;
 function GetValue(selected) {
     PayerType = selected.value;
     console.log(PayerType);
+    if (typeof PayerType == "undefined") {
+        document.Payment.tax.value = "Выберите лицо";
+
+    }
     if(PayerType == 17) {
         document.Payment.tax.value = selected.value;
         //добавление селектора для юр лица
         AddFace();
         //добавление чекбокса для юр лица
         AddCheckbox();
-
-    }
-    if (typeof PayerType == "undefined") {
-        document.Payment.tax.value = "Выберите лицо";
 
     }
     else {
@@ -194,6 +194,3 @@ function GetResult() {
         document.Payment.sum.style.border = "2px solid red";
     }
 }
-document.addEventListener("DOMContentLoaded", function() {
-    GetValue(this);
-});
