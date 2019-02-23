@@ -1,11 +1,11 @@
 //алерт на кнопку
-function  Confirm() {
+function  confirm() {
     alert("Проверьте свои данные");
 }
 //переменная для хранения значения Физ или Юр лица(число 17 или 13)
 var PayerType;
 //функция получения значения селектора
-function GetValue(selected) {
+function getValue(selected) {
     PayerType = selected.value;
     console.log(PayerType);
     if (typeof PayerType == "undefined") {
@@ -15,28 +15,28 @@ function GetValue(selected) {
     if(PayerType == 17) {
         document.Payment.tax.value = selected.value;
         //добавление селектора для юр лица
-        AddFace();
+        addFace();
         //добавление чекбокса для юр лица
-        AddCheckbox();
+        addCheckbox();
 
     }
     else {
         document.Payment.tax.value = selected.value;
         //удаление селектора для юр лица
-        RemoveFace();
+        removeFace();
         //удаление чекбокса для юр лица
-        RemoveCheckbox();
+        removeCheckbox();
     }
     //проверка имени
-    CheckName();
+    checkName();
     //проверка инн
-    ValidateInn();
+    validateInn();
     //получение результата
-    GetResult();
+    getResult();
 
 }
 //добавление селектора для юр лица
-function AddFace() {
+function addFace() {
     $(function () {
         $('#selector').append(
             '<select class="btn btn-secondary dropdown-toggle" name="legal_form"> ' +
@@ -49,12 +49,12 @@ function AddFace() {
 
 }
 //удаление селектора для юр лица
-function RemoveFace() {
+function removeFace() {
     $(function () {
         $('#selector').empty()});
 }
 //Проверка имени на заполнение обязательногополя
-function CheckName() {
+function checkName() {
     $(function () {
         $('#invalid_name').empty()});
     if (document.Payment.Name.value != "") {
@@ -73,7 +73,7 @@ function CheckName() {
 
 }
 //функция для проверки корректности ИНН
-function ValidateInn() {
+function validateInn() {
     $(function () {
         $('#invalid_inn').empty()});
     console.log(PayerType);
@@ -124,15 +124,15 @@ function ValidateInn() {
 
 }
 //Функция добавления чекбокса для юр лица
-function AddCheckbox() {
+function addCheckbox() {
     $(function () {
         $('#checkbox').append(
-        '<input type="checkbox" name="checkbox" onclick="BlockInn();"><span>Упрощенное налогообложение</span>');
+        '<input type="checkbox" name="checkbox" onclick="blockInn();"><span>Упрощенное налогообложение</span>');
     });
 
 }
 //функция для очищения и блокирования ИНН, если checkbox.checked
-function BlockInn() {
+function blockInn() {
     if(document.Payment.checkbox.checked) {
         document.Payment.INN.value = "";
         document.Payment.INN.style.border = "";
@@ -145,12 +145,12 @@ function BlockInn() {
     }
 }
 //удаление чекбокса для юр лица
-function RemoveCheckbox() {
+function removeCheckbox() {
     $(function () {
         $('#checkbox').empty()});
 }
 //Функция проверки корректности ввода номера телефона
-function CheckTelephone()
+function checkTelephone()
 {
     $(function () {
         $('#invalid_telephone').empty()});
@@ -172,7 +172,7 @@ function CheckTelephone()
     }
 }
 //Функция получения суммы платежа, вычисления и отображения итога
-function GetResult() {
+function getResult() {
     $(function () {
         $('#invalid_sum').empty()});
     console.log(document.Payment.sum.value);

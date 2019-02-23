@@ -1,0 +1,52 @@
+<head>
+    <meta charset="utf-8">
+    <title>Регистрация</title>
+    <link href="form.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+</head>
+<body class="text-center">
+<script src="form.js"></script>
+<!--<section class="container col-md-6 col-md-offset-3">-->
+        <!--<form class="col-md-6 col-md-offset-3" name="Registration" method="post" >-->
+        <form class="form-signin" name="Registration">
+            <div class="form-group">
+                <div class="navbar-brand  ">Регистрация</div>
+                <p>
+                    <div>
+                        <input class="input-group-lg col-md-8 col-md-offset-2 col-xs-12 w-50"  id = "name" placeholder="Введите имя" name="PersonName"  required pattern="[А-Я][а-я]+" onchange="ValidateName()" autofocus>
+                    </div>
+                </p>
+                <p>
+                    <div>
+                        <input class="input-group-lg col-md-8 col-md-offset-2 col-xs-12 w-50" id = "surname"  placeholder="Введите фамилию" name="Surname" required pattern="[А-Я][а-я]+" onchange="ValidateSurname()">
+                    </div>
+                </p>
+                <p>
+                    <div>
+                        <div>
+                            <p>
+                                <input class="input-group-lg col-md-8 col-md-offset-2 col-xs-12 w-50" id ="bday" placeholder="Число" name="Day" required pattern="0[1-9]|[12]\d|3[01]" onchange="ValidateDay()">
+                            </p>
+                            <p>
+                                <input class="input-group-lg col-md-8 col-md-offset-2 col-xs-12 w-50" id = "bmonth" placeholder="Месяц" name="Month" required onchange="ValidateMonth()">
+                            </p>
+                            <input class="input-group-lg col-md-8 col-md-offset-2 col-xs-12 w-50" placeholder="Год" name="Year" required  onchange="ValidateYear()">
+                        </div>
+                    </div>
+                </p>
+                <p>
+                    <div >
+                        <select class="btn btn-secondary dropdown-toggle  w-50">
+                            <option id="Select">Выберите город</option>
+                            <option name="Kazan">Казань</option>
+                            <option name="Chelny">Челны</option>
+                            <option name="Almet">Альметьевск</option>
+                        </select>
+                    </div>
+                </p>
+                <p>
+                    <input class="btn btn-primary btn-lg w-50" value="Зарегистрироваться">
+                </p>
+            </div>
+        </form>
+</body>
