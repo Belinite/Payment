@@ -6,31 +6,29 @@
 </head>
 <body class="text-center">
 <script src="form.js"></script>
-<!--<section class="container col-md-6 col-md-offset-3">-->
-        <!--<form class="col-md-6 col-md-offset-3" name="Registration" method="post" >-->
         <form class="form-signin" name="Registration">
             <div class="form-group">
                 <div class="navbar-brand  ">Регистрация</div>
                 <p>
                     <div>
-                        <input class="input-group-lg col-md-8 col-md-offset-2 col-xs-12 w-50"  id = "name" placeholder="Введите имя" name="PersonName"  required pattern="[А-Я][а-я]+" onchange="ValidateName()" autofocus>
+                        <input class="input-group-lg col-md-8 col-md-offset-2 col-xs-12 w-50"  id = "name" placeholder="Введите имя" name="PersonName"  required pattern="[А-Я][а-я]+" onchange="validateName()" autofocus>
                     </div>
                 </p>
                 <p>
                     <div>
-                        <input class="input-group-lg col-md-8 col-md-offset-2 col-xs-12 w-50" id = "surname"  placeholder="Введите фамилию" name="Surname" required pattern="[А-Я][а-я]+" onchange="ValidateSurname()">
+                        <input class="input-group-lg col-md-8 col-md-offset-2 col-xs-12 w-50" id = "surname"  placeholder="Введите фамилию" name="Surname" required pattern="[А-Я][а-я]+" onchange="validateSurname()">
                     </div>
                 </p>
                 <p>
                     <div>
                         <div>
                             <p>
-                                <input class="input-group-lg col-md-8 col-md-offset-2 col-xs-12 w-50" id ="bday" placeholder="Число" name="Day" required pattern="0[1-9]|[12]\d|3[01]" onchange="ValidateDay()">
+                                <input class="input-group-lg col-md-8 col-md-offset-2 col-xs-12 w-50" id ="bday" placeholder="Число" name="Day" required pattern="0[1-9]|[12]\d|3[01]" onchange="validateDay()">
                             </p>
                             <p>
-                                <input class="input-group-lg col-md-8 col-md-offset-2 col-xs-12 w-50" id = "bmonth" placeholder="Месяц" name="Month" required onchange="ValidateMonth()">
+                                <input class="input-group-lg col-md-8 col-md-offset-2 col-xs-12 w-50" id = "bmonth" placeholder="Месяц" name="Month" required onchange="validateMonth()">
                             </p>
-                            <input class="input-group-lg col-md-8 col-md-offset-2 col-xs-12 w-50" placeholder="Год" name="Year" required  onchange="ValidateYear()">
+                            <input class="input-group-lg col-md-8 col-md-offset-2 col-xs-12 w-50" placeholder="Год" name="Year" required  onchange="validateYear()">
                         </div>
                     </div>
                 </p>

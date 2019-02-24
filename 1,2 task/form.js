@@ -1,4 +1,5 @@
-function ValidateName() {
+//Фкнкция проверки Имени на валидность
+function validateName() {
     var person_name = document.Registration.PersonName;
     var reg = new RegExp("[А-Я][а-я]+");
     if(reg.test(person_name.value) == true) {
@@ -7,7 +8,8 @@ function ValidateName() {
     else
         person_name.style.border = "2px solid red";
 }
-function ValidateSurname() {
+//Фкнкция проверки Фамилии на валидность
+function validateSurname() {
     var person_surname = document.Registration.Surname;
     var reg = new RegExp("[А-Я][а-я]+");
     if(reg.test(person_surname.value) == true) {
@@ -16,8 +18,8 @@ function ValidateSurname() {
     else
         person_surname.style.border = "2px solid red";
 }
-
-function ValidateDay() {
+//Фкнкция проверки Дня на валидность
+function validateDay() {
     var person_bday = document.Registration.Day;
     var reg_date = new RegExp("(0[1-9]|1[0-9]|2[0-9]|3[01])");
     if(reg_date.test(person_bday.value)==true )
@@ -32,7 +34,8 @@ function ValidateDay() {
     }
 
 }
-function ValidateMonth() {
+//Фкнкция проверки Месяца на валидность
+function validateMonth() {
     var person_bmonth = document.Registration.Month;
     var reg_month = new RegExp("0[1-9]|1[012]");
     if (reg_month.test(person_bmonth.value) == true) {
@@ -45,7 +48,8 @@ function ValidateMonth() {
 
     }
 }
-function ValidateYear() {
+//Фкнкция проверки Года на валидность
+function validateYear() {
     var person_byear = document.Registration.Year;
     var reg_year = new RegExp("[0-9]{4}");
     if(reg_year.test(person_byear.value)==true)

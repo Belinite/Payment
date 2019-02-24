@@ -1,3 +1,4 @@
+//Фкнкция заполнения грида
 function getGrid(data) {
     $("#jsGrid").jsGrid({
         width: "100%",

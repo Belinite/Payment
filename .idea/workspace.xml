@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="85cc4925-5e68-4034-af7f-aac585498093" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/media-queries.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/payform.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/payform.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/payform.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/1,2 task/form.html" afterPath="$PROJECT_DIR$/1,2 task/form.html" />
+      <change beforePath="$PROJECT_DIR$/1,2 task/form.js" afterPath="$PROJECT_DIR$/1,2 task/form.js" />
+      <change beforePath="$PROJECT_DIR$/4 task/Grid.js" afterPath="$PROJECT_DIR$/4 task/Grid.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -27,21 +25,91 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="collection.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/4 task/collection.js">
+      <file leaf-file-name="Grid.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/4 task/Grid.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+            <state relative-caret-position="0">
+              <caret line="0" column="26" lean-forward="false" selection-start-line="0" selection-start-column="26" selection-end-line="0" selection-end-column="26" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Grid.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/4 task/Grid.js">
+      <file leaf-file-name="cache_jsGrid.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cache_jsGrid/cache_jsGrid.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="21" lean-forward="false" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cache_jsGrid.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cache_jsGrid/cache_jsGrid.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1159">
+              <caret line="83" column="9" lean-forward="true" selection-start-line="83" selection-start-column="9" selection-end-line="83" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="form.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/1,2 task/form.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="form.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/1,2 task/form.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-68">
+              <caret line="30" column="146" lean-forward="false" selection-start-line="30" selection-start-column="146" selection-end-line="30" selection-end-column="146" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="form.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/1,2 task/form.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="collection.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/3 task/collection.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="collection.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/3 task/collection.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-986">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="collection.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/cache_jsGrid/collection.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -79,6 +147,8 @@
         <option value="$PROJECT_DIR$/last/Grid.html.js" />
         <option value="$PROJECT_DIR$/4 task/Grid.html" />
         <option value="$PROJECT_DIR$/4 task/collection.js" />
+        <option value="$PROJECT_DIR$/1,2 task/form.js" />
+        <option value="$PROJECT_DIR$/1,2 task/form.html" />
         <option value="$PROJECT_DIR$/4 task/Grid.js" />
       </list>
     </option>
@@ -122,7 +192,22 @@
             <path>
               <item name="lasttask" type="b2602c69:ProjectViewProjectNode" />
               <item name="lasttask" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="1,2 task" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="lasttask" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lasttask" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="3 task" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="lasttask" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lasttask" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="4 task" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="lasttask" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lasttask" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="cache_jsGrid" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="lasttask" type="b2602c69:ProjectViewProjectNode" />
@@ -174,12 +259,12 @@
       <updated>1550230637769</updated>
       <workItem from="1550230639759" duration="49907000" />
       <workItem from="1550314609976" duration="609000" />
-      <workItem from="1550964610694" duration="1321000" />
+      <workItem from="1550964610694" duration="2330000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51837000" />
+    <option name="totallyTimeSpent" value="52846000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -332,10 +417,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/4 task/Grid.js">
+    <entry file="file://$PROJECT_DIR$/4 task/collection.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="21" lean-forward="false" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+        <state relative-caret-position="85">
+          <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1,2 task/form.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1,2 task/form.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-68">
+          <caret line="30" column="146" lean-forward="false" selection-start-line="30" selection-start-column="146" selection-end-line="30" selection-end-column="146" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1,2 task/form.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3 task/collection.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3 task/collection.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-986">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -348,10 +473,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/4 task/collection.js">
+    <entry file="file://$PROJECT_DIR$/4 task/Grid.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        <state relative-caret-position="0">
+          <caret line="0" column="26" lean-forward="false" selection-start-line="0" selection-start-column="26" selection-end-line="0" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cache_jsGrid/cache_jsGrid.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cache_jsGrid/cache_jsGrid.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1159">
+          <caret line="83" column="9" lean-forward="true" selection-start-line="83" selection-start-column="9" selection-end-line="83" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cache_jsGrid/collection.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
